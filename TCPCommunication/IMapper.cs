@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TCPCommunication
 {
-    public class Class1
+    public interface IMapper<T, h>
     {
+        h Map(T input);
     }
 }
